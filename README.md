@@ -1,1 +1,1 @@
-UART-->RS-232 Interface VHDL Implemenation
+Universal asynchronous receiver-transmitter - FPGA VHDL/Verilog Implementation

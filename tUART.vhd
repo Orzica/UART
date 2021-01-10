@@ -14,7 +14,7 @@ entity tUART is
         data_out	: out std_logic;                   -- Transmit Line Out
         tx_ready	: out std_logic;                   -- We are ready for more data to come in
         start 		: in std_logic;                    -- When '1', we will transmit data
-        data_in	: in std_logic_vector(7 downto 0); -- Data we wanna transmit
+        data_in		: in std_logic_vector(7 downto 0); -- Data we wanna transmit
         reset 		: in std_logic;                    -- Negative Reset
         clk 		: in std_logic
     );

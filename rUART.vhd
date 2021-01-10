@@ -15,7 +15,7 @@ entity rUART is
         data_valid					: out std_logic;
         data_in					: in std_logic;
         reset						: in std_logic;
-        clk						: in std_logic
+        clk							: in std_logic
     );
 end rUART;
 
